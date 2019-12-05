@@ -1,70 +1,141 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Architect Reality</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fullpage.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./libs/fullpage.js"></script>
+    <script type="text/javascript" src="./libs/rellax.min.js"></script>
+    <script type="text/javascript" src="./libs/rellax.js"></script>
+    <script type="text/javascript" src="./script/animation.js"></script>
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	<link href="assets/style.css" rel="stylesheet">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-
-	<title>x</title>
-	
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
 </head>
-<body oncontextmenu="return false;" unselectable="on" onselectstart="return false;">
 
-	<canvas onclick="play();"></canvas>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
 
-	<audio id="audio" preload="" autoplay loop>
-		<source type="audio/mp3" src="https://air.radiorecord.ru:805/gold_320">
-	</audio>
 
-	<div class="center">
-		<center>
-						<p><a>j3nqa</a></p>
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./img/svg/ar-logo.svg" alt="Architect Reality" class="header__logo-pic">
+                    </a>
+                </div>
 
-			<div style="letter-spacing: 3;font-size: 15;">
-				<div id="center">
-					<div>
-						
-						<center class="mblockT">
-							<div id="clockDisplay" class="clockStyle">23:59:59 j3nqa</div>
-						</center>
 
-					</div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#!" class="header__link">
+                                Company
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">
+                                Service
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">
+                                Contacts
+                            </a>
+                        </li>
 
-				</div>
-			</div>
-					<br>
-			<a id="pp" style="cursor: pointer; letter-spacing: 2px; font-size: 16px;" onclick="pVid();">
-				<i class="fas fa-music"></i>
-			</a>
-			<a href="https://vk.com/id124467110" style="cursor: pointer; letter-spacing: 2px; font-size: 16px;">
-				<i class="fab fa-vk"></i>
-			</a>
-			<a href="https://github.com/ojenya" style="cursor: pointer; letter-spacing: 2px; font-size: 16px;">
-				<i class="fab fa-github"></i>
-			</a>
-		</center>
-	</div>
 
-	<script src="assets/index.js" type="text/javascript"></script>
-	<script src="assets/main.js" type="text/javascript"></script>
-	<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+                    </ul>
+                </nav>
+                <div class="header__lines">
+                    <a href="#!" class="header__lines-items">
+                        <div class="header__lines-item1">
 
-   ym(55735864, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/55735864" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+                        </div>
+                        <div class="header__lines-item2">
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" id="fullpage">
+
+
+        <section class="intro section" id="intro">
+
+
+            <div class="bg rellax" data-rellax-speed="0"></div>
+            <div class="linear-bg0 rellax" data-rellax-speed="-2.5"></div>
+            <div class="linear-bg2 rellax" data-rellax-speed="1"></div>
+            <div class="linear-bg rellax" data-rellax-speed="4.5"></div>
+            <div class="linear-bg4 rellax" data-rellax-speed="4.5"></div>
+
+            <div class="intro wrapper">
+                <p class="intro__title-tag">Architect buro</p>
+                <h1 class="intro__title">Architect Reality</h1>
+                <p class="intro__title-subtitle">
+                    Unique projects of moder house
+                </p>
+                <div class="intro__title-more_arrow"></div>
+                <div class="intro__title-more_arrow_2"></div>
+                <div class="intro__title-more">
+                    <p>More information</p>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+
+        <section class="about section" id="about">
+            <div class="about__title-wrap">
+                <div class="about__title-tag">History of company</div>
+                <div class="about__title">About us</div>
+                <div id="1" class="about__title-content ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos esse ea, voluptatibus praesentium temporibus voluptatem asperiores natus, omnis cupiditate odit perspiciatis, sit laudantium? Ratione praesentium et, doloremque eum rem sint!
+                </div>
+                <div class="about__title-more_arrow">
+                    <a href="#!" content=""></a>
+                </div>
+                <div class="about__title-more_arrow_2">
+                    <a href="#!" content=""></a>
+                </div>
+                <div class="about__title-subtitle"><a href="#!">Project</a> </div>
+                <div class="about__title-img"></div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!-- <footer>
+
+        Copyright
+
+    </footer> -->
+
+    <script>
+        new fullpage('#fullpage', {
+            anchors: ['slide1', 'slide2'],
+            scrollingSpeed: 1800,
+            navigation: true,
+            fadingEffect: true,
+            fadingEffect: 'sections'
+        });
+    </script>
+
 </body>
+
 </html>
